@@ -37,10 +37,9 @@ we need to group similar pages together into individual "medical records" withou
 3. Install required libraries:
     ```bash
     pip install -r requirements.txt
-4. Run sample scripts:
-    To run the clustering:
+4. To run the clustering:
     ```bash
     python src/clusterer.py
-    To run the PDF text extraction:
+5. To run the PDF text extraction:
     ```bash
     python src/pdf_extractor.py
