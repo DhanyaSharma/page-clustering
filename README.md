@@ -31,12 +31,16 @@ we need to group similar pages together into individual "medical records" withou
    git clone https://github.com/DhanyaSharma/page-clustering.git
    cd page-clustering
 2. Create and activate a virtual environment:
+    ```bash
     python -m venv venv
     .\venv\Scripts\activate  # On Windows
 3. Install required libraries:
+    ```bash
     pip install -r requirements.txt
-    Run sample scripts:
-4. To run the clustering:
+4. Run sample scripts:
+    To run the clustering:
+    ```bash
     python src/clusterer.py
-5. To run the PDF text extraction:
+    To run the PDF text extraction:
+    ```bash
     python src/pdf_extractor.py
